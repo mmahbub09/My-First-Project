@@ -5,5 +5,12 @@ public class Hello {
 
         System.out.println("Hello everyone! Checking another sentence for github");
 
+
+        //This is just a basic for loop.
+
+        for (int i = 0; i < 10; i++){
+            System.out.println(i);
+        }
+
     }
 }
