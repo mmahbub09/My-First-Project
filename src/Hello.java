@@ -1,15 +1,23 @@
 public class Hello {
 
     public static void main(String[] args) {
-        System.out.println("Hello Github! This is another update");
-
-        System.out.println("Hello everyone! Checking another sentence for github");
-
 
         //This is just a basic for loop.
 
-        for (int i = 0; i < 10; i++){
-            System.out.println(i);
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println(i);
+//        }
+
+
+        int grade = 92;
+        if (grade >= 90) {
+            System.out.println("Student received " + "A");
+        } else if (grade <= 80) {
+            System.out.println("Student received " + "B");
+        } else if (grade < 50){
+            System.out.println("Student receieved " + "C");
+        } else{
+            System.out.println("Student received no grade");
         }
 
     }
